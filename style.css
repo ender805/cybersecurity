@@ -21,7 +21,7 @@ flex-direction: column;
 /* change color leter on  */
 color:#575757;
     
-    background: url(/images/cybersecurity-specialist-operates-high-tech-military-control-center.jpg) no-repeat center center/cover;
+background: url(/images/dan-nelson-ah-HeguOe9k-unsplash.jpg) no-repeat center center/cover;
 }
 header {
     
@@ -30,8 +30,8 @@ flex-direction: column;
 /* change color leter on */
 color:#575757;
 margin-bottom: 20px;
-box-shadow: 0px 0px 20px 20px #9a9c9e77;
-background-color: #a2a4a852;
+box-shadow: 0px 0px 20px 20px #1213149f;
+background-color: #121314ab;
 }
 
 
@@ -52,7 +52,7 @@ align-items: center;
   
     
 nav .logo {
-color: rgb(16, 4, 73);
+color: rgb(41, 184, 5);
 font-size: 68px;
 text-decoration: none;
 margin-left: 40px;
@@ -74,7 +74,7 @@ margin-left: 20px;
 }
 
 nav ul li a {
-color: rgb(16, 4, 73);
+color: rgb(41, 184, 5);
 text-decoration: none;
 font-size: 34px;
 padding: 10px;
@@ -84,7 +84,7 @@ margin-right: 50px;
 }
 
 nav ul li a:hover {
-background-color: #a2a4a8;
+background-color: #a5a9b1;
 border-radius: 5px;
 } 
   
@@ -162,8 +162,9 @@ border-radius: 5px;
   width: 100%;
   padding:10px 0;
   z-index: 100;
-  box-shadow: 0px 0px 20px 20px #9a9c9e77;
-  background-color: #9a9c9e77;
+  box-shadow: 0px 0px 20px 20px #121314b0;
+  background-color: #121314ab;
+
 }
   
 #social-networks a {
