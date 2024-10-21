@@ -2,7 +2,7 @@
 
 * {
 padding: 0;
-margin: 10;
+margin: 0;
 box-sizing: border-box;
    
    
@@ -202,16 +202,46 @@ font-size: 55px;
 }
 
 
+/* ---------------------Extras---------------------------------- */
+
+#gallery {
+  display: flex;
+  justify-content: center;   /* Centers #photos horizontally */
+  align-items: center;       /* Centers #photos vertically */
+  min-height: 80vh;         /* Ensures the gallery takes up full screen height */
+             /* Optional: Center horizontally within any parent container */
+  padding-bottom: 10px;     /* Keeps the footer and other elements spaced */
+}
+
+
+
+#photos {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+
+
+}
+
+#photos img {
+  width: 55%; 
+  margin-bottom: 20px; 
+  border: 1px solid rgb(85, 241, 46);
+  box-shadow: 0px 0px 15px 5px #f2f3f5ec;
+}
+
 /* ------------------media------------------------------------- */
 @media (max-width: 768px) {
 #container {
-  grid-template-columns: 1fr; /* Stack tiles vertically */
+  grid-template-columns: 1fr; 
   margin: 10px;
   max-width: 100%;
   }
 
 #hero {
-  width: 100%; /* Make hero section responsive */
+  width: 100%; 
   margin: 20px 0;
   }
 }
