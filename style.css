@@ -2,27 +2,43 @@
 
 * {
     padding: 0;
-    margin: 0;
+    margin: 10;
     box-sizing: border-box;
+   
+   
 }
-
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
 body {
-    min-height: 100vh;
+    
+    background: url(/imgages/cybersecurity-specialist-operates-high-tech-military-control-center.jpg) no-repeat center center/cover;
+}
+header {
+    
     display: flex;
     flex-direction: column;
     /* change color leter on */
     color:#575757;
-    background: url(/images/hacker.jpg) no-repeat center center/cover;
+    margin-bottom: 20px;
+    
 
   }
 
+
+
   /* ------------------Nav--------------------------- */
   nav {
+    
     background-color: rgba(128, 128, 128, 0.24);
     padding: 5px;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
+    
   }
 
 
@@ -51,7 +67,7 @@ body {
     font-size: 20px;
     padding: 10px;
     transition: background-color 0.3s;
-    margin-right: 50px;
+   
     /* border: 3px solid orange; */
   }
 
@@ -65,41 +81,64 @@ body {
   /* ----------------------------End of nav---------------------------------------------------- */
 
   /* -------------------------hero-------------------------------------  */
+
+    
 #hero {
-    border: 2px solid blue;
-    box-sizing: border-box;
-    margin: 20px 150px ;
-    align-self:flex-end;
-    height: 100px;
-    width: 300px;
-   
+        background-color: red;
+        width: 350px;
+        height: 200px;
+        padding: 20px;
+        color: white;
+        text-align:center;
+        margin-left: auto;
+        margin-right: 50px;
+        border-radius: 8px;
+        justify-content: center;
+    
+        
+        
 }
-
-
-
-
 
 
   /* --------------------------container (4 tiles) */
 #container {
-    border: 1px solid green;
-    display: flex;
-    margin: 10px;
-    height: 100vh;
-    width:150vh;
-    flex-wrap: wrap; 
-    max-width: 420px;
-    max-height: 370px;
-    
-   
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px;
+    width: 100%;
+    background-color: green; 
+    padding: 20px;
+ 
 }
-#container div {
+#container .tile1, .tile2, .tile3, .tile4 {
+  border:1px solid #ffffff;
+  margin: 10px 10px 15px;
+  padding: 20px;
+  grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+  border-radius: 2%;
+  width: calc(50% - 150px);
+  justify-content: center;
+  width: 80%;
+  justify-content: center;
+ background-color: rgb(51, 58, 107);  }
+ 
+ 
+ 
+
+
+ #container div {
    border: 1px solid red;
    display: flex;
-   flex-wrap: wrap;
-   width: 150px;
+   justify-content: center;
    margin: 20px;
+   gap:20px;
+   padding: 10px;
+width: 60%;
+   
+
+
   
    
     
@@ -111,10 +150,11 @@ body {
   footer{
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     text-align: center;
     padding: 10px 0;
     margin-top:auto;
+    
    
 
     
@@ -132,3 +172,28 @@ body {
   #social a {
     /* text-decoration: none; */
   }
+
+  header {
+    background-color: orange;
+  }
+  #hero {
+    background-color: red;
+  }
+  #container {
+    background-color: green;
+  }
+  footer {
+    background-color: blue;
+  }
+
+
+
+
+/* ------------------media------------------------------------- */
+  @media (max-width: 768px) {
+    #container {
+        flex-direction: column; /* Stack tiles vertically */
+        margin: 10px; /* Adjust margin */
+        max-width: 100%; /* Full width on smaller screens */
+    }
+}
