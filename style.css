@@ -63,7 +63,24 @@ body {
   } 
   
   /* ----------------------------End of nav---------------------------------------------------- */
-  
+
+  /* -------------------------hero-------------------------------------  */
+#hero {
+    border: 2px solid blue;
+    box-sizing: border-box;
+    margin: 20px 150px ;
+    align-self:flex-end;
+    height: 100px;
+    width: 300px;
+   
+}
+
+
+
+
+
+
+  /* --------------------------container (4 tiles) */
 #container {
     border: 1px solid green;
     display: flex;
@@ -87,13 +104,6 @@ body {
    
     
 }
-
-
-
-
-
-
-
 
 
   /* ---------------------footer----------------------------------------------------- */
