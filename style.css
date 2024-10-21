@@ -1,95 +1,92 @@
 
 
 * {
-    padding: 0;
-    margin: 10;
-    box-sizing: border-box;
+padding: 0;
+margin: 10;
+box-sizing: border-box;
    
    
 }
 main {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
+display: flex;
+justify-content: space-between;
+margin: 20px;
     
     
 }
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /* change color leter on */
-  color:#575757;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+/* change color leter on  */
+color:#575757;
     
     background: url(/images/cybersecurity-specialist-operates-high-tech-military-control-center.jpg) no-repeat center center/cover;
 }
 header {
     
-    display: flex;
-    flex-direction: column;
-    /* change color leter on */
-    color:#575757;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 20px 20px #9a9c9e77;
-    background-color: #a2a4a852;
-    
-
-  }
+display: flex;
+flex-direction: column;
+/* change color leter on */
+color:#575757;
+margin-bottom: 20px;
+box-shadow: 0px 0px 20px 20px #9a9c9e77;
+background-color: #a2a4a852;
+}
 
 
 
   /* ------------------Nav--------------------------- */
   
     
-    nav {
-      background-color: rgba(128, 128, 128, 0.24);
-      padding: 5px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center; 
-    }
+nav {
+background-color: rgba(128, 128, 128, 0.24);
+padding: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center; 
+}
   
 
 
-  nav .logo 
-    nav .logo {
-      color: rgb(16, 4, 73);
-      font-size: 68px;
-      text-decoration: none;
-      margin-left: 40px;
-      margin-top: 30px
+  
     
-  }
+nav .logo {
+color: rgb(16, 4, 73);
+font-size: 68px;
+text-decoration: none;
+margin-left: 40px;
+margin-top: 30px;
+}
 
-  nav ul {
-    list-style-type: none;
-    display: flex;
-  }
+nav ul {
+list-style-type: none;
+display: flex;
+/* border:2px solid red; */
+}
 
     
   
 
-   nav ul li {
-    margin-left: 20px; 
-    /* border:2px solid green; */
-  }
+nav ul li {
+margin-left: 20px; 
+/* border:2px solid green; */
+}
 
-  nav ul li a {
-    color: rgb(16, 4, 73);
-    text-decoration: none;
-    font-size: 34px;
-    padding: 10px;
-    transition: background-color 0.3s;
-    margin-right: 50px;
-    /* border: 3px solid orange; */
-  }
+nav ul li a {
+color: rgb(16, 4, 73);
+text-decoration: none;
+font-size: 34px;
+padding: 10px;
+transition: background-color 0.3s;
+margin-right: 50px;
+/* border: 3px solid orange; */
+}
 
-  nav ul li a:hover {
-    background-color: #a2a4a8;
-    border-radius: 5px;
- 
-    
-  } 
+nav ul li a:hover {
+background-color: #a2a4a8;
+border-radius: 5px;
+} 
   
   
   /* ----------------------------End of nav---------------------------------------------------- */
@@ -111,9 +108,6 @@ header {
   font-size: 30px;
   text-align: center;
   box-shadow: 0px 0px 5px 5px #9a9c9e77;
-    
-        
-        
 }
 
 
@@ -134,18 +128,18 @@ header {
   margin: 10px 10px 15px;
   padding: 20px;
   grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, auto); 
+  grid-template-rows: repeat(2, auto); 
   border-radius: 2%;
   width: calc(50% - 150px);
   justify-content: center;
   width: 80%;
   justify-content: center;
- background-color: rgb(51, 58, 107); 
+  background-color: rgb(51, 58, 107); 
  }
  
 
  #container div {
-  border: 1px solid red;
+  border: 3px solid red;
   display: flex;
   justify-content: center;
   margin: 20px;
@@ -159,58 +153,65 @@ header {
 
 
   #social-networks {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none; 
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    padding:10px 0;
-    z-index: 100;
-    background-color: rgba(128, 128, 128, 0.24);
-    box-shadow: 0px 0px 5px 5px #9a9c9e77;
-  }
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none; 
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding:10px 0;
+  z-index: 100;
+  box-shadow: 0px 0px 20px 20px #9a9c9e77;
+  background-color: #9a9c9e77;
+}
   
-   #social-networks a {
-   
-    font-size: 55px;
-   }  
-  #social-networks ol i {
-    background-color: none;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none; 
-  }
+#social-networks a {
+  font-size: 55px;
+}  
+#social-networks ol i {
+  background-color: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none; 
+}
   
-   #social-networks a {
-   
-    font-size: 55px;
-   }  
-  #social-networks ol i {
-    background-color: none;
-  }
+#social-networks a {
+font-size: 55px;
+}  
+#social-networks ol i {
+  background-color: none;
+}
 
-font colours
 .gplus  {
-color:#db4a39;
+ color:#db4a39;
+ text-decoration: none;
 } 
 .github  {
-color: #4078c0; 
+ color: #4078c0; 
+ text-decoration: none;
 }
 .linkedin {
-  color: #0077B5;
+ color: #0077B5;
+ text-decoration: none;
 }
 .x {
-  color:white;
+ color:white;
+ text-decoration: none;
 }
 
 
 /* ------------------media------------------------------------- */
 @media (max-width: 768px) {
-  #container {
-      flex-direction: column; /* Stack tiles vertically */
-      margin: 10px; /* Adjust margin */
-      max-width: 100%; /* Full width on smaller screens */
+#container {
+  grid-template-columns: 1fr; /* Stack tiles vertically */
+  margin: 10px;
+  max-width: 100%;
   }
+
+#hero {
+  width: 100%; /* Make hero section responsive */
+  margin: 20px 0;
+  }
+}
