@@ -1,0 +1,104 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* change color leter on */
+    color:#575757;
+    background: url(/images/hacker.jpg) no-repeat center center/cover;
+
+  }
+
+  /* ------------------Nav--------------------------- */
+  nav {
+    background-color: rgba(128, 128, 128, 0.24);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  nav .logo {
+    color: rgb(16, 4, 73);
+    font-size: 34px;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 30px
+    
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    
+  }
+
+  nav ul li {
+    margin-left: 20px;
+  }
+/* buttons  */
+  nav ul li a {
+    color: rgb(204, 8, 8);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: background-color 0.3s;
+    margin-right: 50px;
+    /* border: 3px solid orange; */
+  }
+
+  nav ul li a:hover {
+    background-color: #a2a4a8;
+    border-radius: 5px;
+ 
+    
+  } 
+  
+  /* ----------------------------End of nav---------------------------------------------------- */
+  
+
+
+
+
+
+
+
+
+
+
+
+  /* ---------------------footer----------------------------------------------------- */
+
+  footer{
+    display: flex;
+    
+    justify-content: center;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px 0;
+    margin-top:auto;
+   
+
+    
+  }
+  #social {
+    display: flex;
+    /* border: 3px solid orange; */
+    list-style-type: none;
+   
+  } 
+  #social li {
+    margin: 0 40px;
+    font-size: 28px;
+  }
+  #social a {
+    /* text-decoration: none; */
+  }
