@@ -64,8 +64,29 @@ body {
   
   /* ----------------------------End of nav---------------------------------------------------- */
   
-
-
+#container {
+    border: 1px solid green;
+    display: flex;
+    margin: 10px;
+    height: 100vh;
+    width:150vh;
+    flex-wrap: wrap; 
+    max-width: 420px;
+    max-height: 370px;
+    
+   
+    
+}
+#container div {
+   border: 1px solid red;
+   display: flex;
+   flex-wrap: wrap;
+   width: 150px;
+   margin: 20px;
+  
+   
+    
+}
 
 
 
@@ -79,7 +100,6 @@ body {
 
   footer{
     display: flex;
-    
     justify-content: center;
     /* border: 1px solid red; */
     text-align: center;
