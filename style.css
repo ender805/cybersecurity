@@ -95,19 +95,20 @@ border-radius: 5px;
 
     
 #hero {
-  float:right;
-  margin: 50px 200px 100px;
-  width: 450px;
-  height: 300px;
-  padding:20px 40px 20px 40px;
-  color:rgb(16, 4, 73);
-  /* border:1px solid white; */
+  position: fixed; /* Fixes the hero box in place */
+  top: 150px;       /* Adjusts the vertical positioning */
+  right: 20px;     /* Moves the box to the right corner */
+  width: 550px;
+  height: 300px;    /* Adjusts height dynamically */
+  padding: 20px 40px;
+  color: rgb(16, 4, 73);
   background-color: #e5e9ec83;
-  /* change fonts!  */
   font-family: "Bebas Neue", serif;
   font-size: 30px;
   text-align: center;
   box-shadow: 0px 0px 5px 5px #9a9c9e77;
+  overflow: hidden; /* Ensures text doesn't overflow */
+  z-index: 1000;    /* Ensures it stays on top of other content */
 }
 
 
@@ -239,10 +240,12 @@ font-size: 55px;
   grid-template-columns: 1fr; 
   margin: 10px;
   max-width: 100%;
+  max-height: 33%;
   }
-
-#hero {
-  width: 100%; 
-  margin: 20px 0;
+  #hero {
+    width: 90%;    
+    right: 5%;    
+    top: 150px;    
+    font-size: 14px;
   }
 }
