@@ -12,10 +12,16 @@ main {
     justify-content: space-between;
     margin: 20px;
     
+    
 }
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* change color leter on */
+  color:#575757;
     
-    background: url(/imgages/cybersecurity-specialist-operates-high-tech-military-control-center.jpg) no-repeat center center/cover;
+    background: url(/images/cybersecurity-specialist-operates-high-tech-military-control-center.jpg) no-repeat center center/cover;
 }
 header {
     
@@ -24,6 +30,8 @@ header {
     /* change color leter on */
     color:#575757;
     margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 20px #9a9c9e77;
+    background-color: #a2a4a852;
     
 
   }
@@ -31,43 +39,48 @@ header {
 
 
   /* ------------------Nav--------------------------- */
-  nav {
+  
     
-    background-color: rgba(128, 128, 128, 0.24);
-    padding: 5px;
-    /* display: flex; */
-    justify-content: space-between;
-    align-items: center;
-    
-  }
+    nav {
+      background-color: rgba(128, 128, 128, 0.24);
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+    }
+  
 
 
-  nav .logo {
-    color: rgb(16, 4, 73);
-    font-size: 34px;
-    text-decoration: none;
-    margin-left: 40px;
-    margin-top: 30px
+  nav .logo 
+    nav .logo {
+      color: rgb(16, 4, 73);
+      font-size: 68px;
+      text-decoration: none;
+      margin-left: 40px;
+      margin-top: 30px
     
   }
 
   nav ul {
     list-style-type: none;
     display: flex;
-    
   }
 
-  nav ul li {
-    margin-left: 20px;
+    
+  
+
+   nav ul li {
+    margin-left: 20px; 
+    /* border:2px solid green; */
   }
-/* buttons  */
+
   nav ul li a {
-    color: rgb(204, 8, 8);
+    color: rgb(16, 4, 73);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 34px;
     padding: 10px;
     transition: background-color 0.3s;
-   
+    margin-right: 50px;
     /* border: 3px solid orange; */
   }
 
@@ -78,22 +91,26 @@ header {
     
   } 
   
+  
   /* ----------------------------End of nav---------------------------------------------------- */
 
   /* -------------------------hero-------------------------------------  */
 
     
 #hero {
-        background-color: red;
-        width: 350px;
-        height: 200px;
-        padding: 20px;
-        color: white;
-        text-align:center;
-        margin-left: auto;
-        margin-right: 50px;
-        border-radius: 8px;
-        justify-content: center;
+  float:right;
+  margin: 50px 200px 100px;
+  width: 450px;
+  height: 300px;
+  padding:20px 40px 20px 40px;
+  color:rgb(16, 4, 73);
+  /* border:1px solid white; */
+  background-color: #e5e9ec83;
+  /* change fonts!  */
+  font-family: "Bebas Neue", serif;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 5px #9a9c9e77;
     
         
         
@@ -102,14 +119,15 @@ header {
 
   /* --------------------------container (4 tiles) */
 #container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, auto); 
-    gap: 20px;
-    width: 100%;
-    background-color: green; 
-    padding: 20px;
- 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, auto); 
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: green; 
+  padding: 20px;
 }
 #container .tile1, .tile2, .tile3, .tile4 {
   border:1px solid #ffffff;
@@ -122,78 +140,77 @@ header {
   justify-content: center;
   width: 80%;
   justify-content: center;
- background-color: rgb(51, 58, 107);  }
+ background-color: rgb(51, 58, 107); 
+ }
  
- 
- 
-
 
  #container div {
-   border: 1px solid red;
-   display: flex;
-   justify-content: center;
-   margin: 20px;
-   gap:20px;
-   padding: 10px;
-width: 60%;
-   
-
-
-  
-   
-    
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap:20px;
+  padding: 10px; 
+  width: 60%;
 }
 
 
   /* ---------------------footer----------------------------------------------------- */
 
-  footer{
-    display: flex;
-    justify-content: center;
-    border: 1px solid red;
+
+  #social-networks {
     text-align: center;
-    padding: 10px 0;
-    margin-top:auto;
-    
-   
-
-    
-  }
-  #social {
     display: flex;
-    /* border: 3px solid orange; */
-    list-style-type: none;
+    justify-content: space-evenly;
+    list-style: none; 
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding:10px 0;
+    z-index: 100;
+    background-color: rgba(128, 128, 128, 0.24);
+    box-shadow: 0px 0px 5px 5px #9a9c9e77;
+  }
+  
+   #social-networks a {
    
-  } 
-  #social li {
-    margin: 0 40px;
-    font-size: 28px;
+    font-size: 55px;
+   }  
+  #social-networks ol i {
+    background-color: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none; 
   }
-  #social a {
-    /* text-decoration: none; */
-  }
-
-  header {
-    background-color: orange;
-  }
-  #hero {
-    background-color: red;
-  }
-  #container {
-    background-color: green;
-  }
-  footer {
-    background-color: blue;
+  
+   #social-networks a {
+   
+    font-size: 55px;
+   }  
+  #social-networks ol i {
+    background-color: none;
   }
 
-
+font colours
+.gplus  {
+color:#db4a39;
+} 
+.github  {
+color: #4078c0; 
+}
+.linkedin {
+  color: #0077B5;
+}
+.x {
+  color:white;
+}
 
 
 /* ------------------media------------------------------------- */
-  @media (max-width: 768px) {
-    #container {
-        flex-direction: column; /* Stack tiles vertically */
-        margin: 10px; /* Adjust margin */
-        max-width: 100%; /* Full width on smaller screens */
-    }
-}
+@media (max-width: 768px) {
+  #container {
+      flex-direction: column; /* Stack tiles vertically */
+      margin: 10px; /* Adjust margin */
+      max-width: 100%; /* Full width on smaller screens */
+  }
