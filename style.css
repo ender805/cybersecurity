@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Chau+Philomene+One:ital@0;1&family=Orbitron:wght@400..900&display=swap');
+
+
 
 * {
 padding: 0;
@@ -43,7 +46,7 @@ padding: 5px;
 display: flex;
 justify-content: space-between;
 align-items: center; 
-font-family: "Fira Mono", monospace;
+font-family: "Orbitron", sans-serif;
 font-size: 20px;
 }
   
@@ -52,12 +55,13 @@ font-size: 20px;
   
     
 nav .logo {
-color: rgb(41, 184, 5);
-font-size: 78px;
+color: rgb(248, 250, 248);
+font-size: 98px;
 text-decoration: none;
 margin-left: 40px;
-margin-top: 30px;
-font-family: "Roboto Mono", monospace;
+margin-top: 10px;
+font-family: "Orbitron", sans-serif;
+
 /* change font looks bad */
 
 }
@@ -77,7 +81,7 @@ margin-left: 20px;
 }
 
 nav ul li a {
-color: rgb(41, 184, 5);
+color: rgb(248, 250, 248);
 text-decoration: none;
 font-size: 34px;
 padding: 10px;
@@ -99,17 +103,13 @@ border-radius: 5px;
     
 #hero {
   background-color: rgba(102, 93, 93, 0.644);
-  font-size: 130%;
   margin-left: 55%;
-  bottom: 30px;
-  width: 30%;
-  height: 400px;
-  min-height: 200px;
+  height: 350px;
   padding-top: 40px;
   padding-left: 10px;
-  font-family: "Fira Mono", monospace;
-  color: rgb(67, 216, 38);
-  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
+  color: rgb(248, 250, 248);
+  font-size: 35px;
  
 }
 #hero #cover-text h2{
@@ -141,10 +141,11 @@ border-radius: 5px;
   gap:30px;
   margin: auto;
   margin-top:10%;
-  font-family: "Fira Mono", monospace;
-  color: rgb(250, 253, 249);
+  font-family: "Orbitron", sans-serif;
+  color: rgb(248, 250, 248);
   font-size: 20px;
-  border:2px solid red;
+  /* border:2px solid red; */
+  
   
   
 }
@@ -155,12 +156,35 @@ border-radius: 5px;
   height: 350px;  
   padding: 10px;
   background-color: #575a5e9f;
-  border:3px solid green;
+  /* border:3px solid green; */
   border-radius: 2%;  
-  font-size: 30px;
-   }
+  font-size: 20px;
+    }
  
+#tiles .small-button {
+  
+  background-color: #3868ec; 
+  color: rgb(236, 226, 226); 
+  padding: 5px 5px; 
+  border: none; 
+  width: 30%;
+  
+  border-radius: 5px; 
+  text-align: center; 
+  text-decoration: none; 
+  font-size: 20px; 
+  cursor: pointer; 
+  
+  
+  
+  
 
+}
+.icon { 
+  color:rgb(110, 107, 240);
+  font-size: 36px;
+  margin-left: 20px;
+}
   /* ---------------------footer----------------------------------------------------- */
 
 
@@ -169,19 +193,19 @@ border-radius: 5px;
   display: flex;
   justify-content: space-evenly;
   list-style: none; 
-  bottom: 0;
   position: relative;
   width: 100%;
-  padding:10px;
-  margin-bottom: 30px;
+  padding:20px;
+  margin-bottom: 40px;
   z-index: 100;
   box-shadow: 0px 0px 20px 20px #121314b0;
   background-color: #121314ab;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
   
 #social-networks a {
-  font-size: 40px;
+  font-size: 60px;
+  
 }  
 #social-networks ol i {
   background-color: none;
@@ -189,6 +213,7 @@ border-radius: 5px;
   display: flex;
   justify-content: space-evenly;
   list-style: none; 
+ 
 }
   
 #social-networks a {
