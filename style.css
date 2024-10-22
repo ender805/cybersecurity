@@ -136,30 +136,32 @@ border-radius: 5px;
   height: 800px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  justify-content: space-around;
   gap:30px;
   margin: auto;
   margin-top:10%;
   font-family: "Orbitron", sans-serif;
   color: rgb(248, 250, 248);
   font-size: 20px;
+  margin-bottom: 10px;
+ 
   /* border:2px solid red; */
   
   
   
 }
 .tile1, .tile2, .tile3, .tile4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  
   height: 350px;  
   padding: 10px;
   background-color: #575a5e9f;
   /* border:3px solid green; */
   border-radius: 2%;  
   font-size: 20px;
-    }
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  flex-wrap: wrap;
+}
  
 #tiles .small-button {
   
@@ -168,7 +170,6 @@ border-radius: 5px;
   padding: 5px 5px; 
   border: none; 
   width: 30%;
-  
   border-radius: 5px; 
   text-align: center; 
   text-decoration: none; 
@@ -181,8 +182,8 @@ border-radius: 5px;
 
 }
 .icon { 
-  color:rgb(110, 107, 240);
-  font-size: 36px;
+  color:rgb(240, 240, 245);
+  font-size: 46px;
   margin-left: 20px;
 }
   /* ---------------------footer----------------------------------------------------- */
@@ -255,8 +256,8 @@ font-size: 55px;
 
 
 #photos {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  width: 80%; 
+  margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   
@@ -265,7 +266,7 @@ font-size: 55px;
 }
 
 #photos img {
-  width: 55%; 
+  width: 85%; 
   margin-bottom: 20px; 
   border: 1px solid rgb(85, 241, 46);
   box-shadow: 0px 0px 15px 5px #f2f3f5ec;
