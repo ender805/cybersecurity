@@ -109,7 +109,7 @@ border-radius: 5px;
   padding-left: 10px;
   position: relative;
   font-family: "Fira Mono", monospace;
-
+border: 1px solid red;
 }
 
 
@@ -121,7 +121,7 @@ border-radius: 5px;
   margin-top: 250px;
   margin-right: ;
   width: 80%;
-  height: 600px;
+  height: 800px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -138,11 +138,12 @@ border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 250px;  /* Takes full viewport height */
+  height: 350px;  /* Takes full viewport height */
   padding: 10px;
   background-color: #898b8d9f;
   border:3px solid green;
   border-radius: 2%;  
+  font-size: 20px;
  }
  
 
