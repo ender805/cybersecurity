@@ -54,10 +54,13 @@ font-size: 20px;
     
 nav .logo {
 color: rgb(41, 184, 5);
-font-size: 68px;
+font-size: 78px;
 text-decoration: none;
 margin-left: 40px;
 margin-top: 30px;
+font-family: "Roboto Mono", monospace;
+/* change font looks bad */
+
 }
 
 nav ul {
@@ -127,6 +130,7 @@ border-radius: 5px;
   margin: 0 auto;
   font-family: "Fira Mono", monospace;
   color: white;
+  font-size: 20px;
   border:2px solid red;
   
 }
