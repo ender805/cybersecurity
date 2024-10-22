@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Chau+Philomene+One:ital@0;1&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Chau+Philomene+One:ital@0;1&family=Lexend:wght@100..900&family=Orbitron:wght@400..900&display=swap');
 
 
 
@@ -59,7 +58,7 @@ nav .logo {
 color: rgb(248, 250, 248);
 font-size: 98px;
 text-decoration: none;
-margin-left: 40px;
+margin-left: 2vw;
 margin-top: 10px;
 font-family: "Orbitron", sans-serif;
 
@@ -84,10 +83,10 @@ margin-left: 20px;
 nav ul li a {
 color: rgb(248, 250, 248);
 text-decoration: none;
-font-size: 34px;
+font-size: 1.5vw;
 padding: 10px;
 transition: background-color 0.3s;
-margin-right: 50px;
+margin-right: 2vw;
 /* border: 3px solid orange; */
 }
 
@@ -104,19 +103,19 @@ border-radius: 5px;
     
 #hero {
   background-color: rgba(102, 93, 93, 0.644);
-  margin-left: 55%;
+  margin-left: 50%;
   height: 350px;
   padding-top: 40px;
   padding-left: 10px;
   font-family: "Orbitron", sans-serif;
   color: rgb(248, 250, 248);
-  font-size: 35px;
+  font-size: 1.5vw;
   border: 1px solid rgb(85, 241, 46);
-box-shadow: 0px 0px 15px 5px #f2f3f5ec;
+  box-shadow: 0px 0px 15px 5px #f2f3f5ec;
  
 }
 #hero #cover-text h2{
-  padding: 20px;
+  padding: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,16 +136,15 @@ box-shadow: 0px 0px 15px 5px #f2f3f5ec;
   
 
 #tiles{
-  width: 80%;
-  height: 800px;
+  width: 95%;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap:30px;
   margin: auto;
   margin-top:10%;
   font-family: "Orbitron", sans-serif;
-  color: rgb(248, 250, 248);
-  font-size: 20px;
+  color: rgb(240, 240, 243);
   margin-bottom: 10px;
  
   /* border:2px solid red; */
@@ -156,18 +154,18 @@ box-shadow: 0px 0px 15px 5px #f2f3f5ec;
 }
 .tile1, .tile2, .tile3, .tile4 {
   
-  height: 350px;  
-  padding: 10px;
-  background-color: #575a5e9f;
+  height: auto;  
+  padding: 2vw;
+  background-color: #575a5ecb;
   /* border:3px solid green; */
   border-radius: 2%;  
-  font-size: 20px;
+  font-size: 1.2vw;
   display: flex; 
   justify-content: center; 
   align-items: center;
   flex-wrap: wrap;
   border: 1px solid rgb(85, 241, 46);
-box-shadow: 0px 0px 15px 5px #f2f3f5ec;
+ box-shadow: 0px 0px 15px 5px #f2f3f5ec;
 }
  
 #tiles .small-button {
@@ -190,7 +188,7 @@ box-shadow: 0px 0px 15px 5px #f2f3f5ec;
 }
 .icon { 
   color:rgb(240, 240, 245);
-  font-size: 46px;
+  font-size: 78px;
   margin-left: 20px;
 }
   /* ---------------------footer----------------------------------------------------- */
@@ -276,10 +274,11 @@ box-shadow: 0px 0px 15px 5px #f2f3f5ec;
 display: flex;
 justify-content:center; 
 align-items: center;
-
 background-color: #a7a1a18a;
 font-size: 35px;
 color: #040d2b; 
+font-family: "Orbitron", sans-serif;
+font-weight: 800;
    
 }
 
@@ -287,6 +286,8 @@ color: #040d2b;
   width: 150px;
   height: 80px;
   background-color: #8c9faa;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
 }
 
 
