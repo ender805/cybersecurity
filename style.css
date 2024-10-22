@@ -23,6 +23,9 @@ flex-direction: column;
 /* change color leter on  */
 color:#575757;
 background: url(/images/dark\ mode.webp) no-repeat center center/cover;
+background-size: cover;
+background-position: center;
+
 }
 header {
     
@@ -56,7 +59,7 @@ font-size: 20px;
     
 nav .logo {
 color: rgb(248, 250, 248);
-font-size: 98px;
+font-size: 5rem;
 text-decoration: none;
 margin-left: 2vw;
 margin-top: 10px;
@@ -76,7 +79,7 @@ display: flex;
   
 
 nav ul li {
-margin-left: 20px; 
+margin-left: 2vw; 
 /* border:2px solid green; */
 }
 
@@ -105,8 +108,8 @@ border-radius: 5px;
   background-color: rgba(102, 93, 93, 0.644);
   margin-left: 50%;
   height: 350px;
-  padding-top: 40px;
-  padding-left: 10px;
+  padding:20px;
+  padding-left: 2rem;
   font-family: "Orbitron", sans-serif;
   color: rgb(248, 250, 248);
   font-size: 1.5vw;
@@ -172,7 +175,7 @@ border-radius: 5px;
   
   background-color: #3868ec; 
   color: rgb(236, 226, 226); 
-  padding: 5px 5px; 
+  padding: 1rem 2rem; 
   border: none; 
   width: 30%;
   border-radius: 5px; 
@@ -188,7 +191,7 @@ border-radius: 5px;
 }
 .icon { 
   color:rgb(240, 240, 245);
-  font-size: 78px;
+  font-size: 4rem;
   margin-left: 20px;
 }
   /* ---------------------footer----------------------------------------------------- */
@@ -243,42 +246,47 @@ font-size: 55px;
 
 #gallery {
   display: flex;
-  justify-content: center;   
-  align-items: center;       
-  margin: 0 100px;
-             
-  padding-bottom: 10px;     
+justify-content: center;   
+align-items: center;       
+margin: 0 100px;
+padding-bottom: 10px;     
 }
 #photos {
-  width: 80%; 
+  width: 90%; 
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 #photos img {
-  width: 85%; 
+  width: 100%; 
+  height: auto;
   margin-bottom: 20px; 
   border: 1px solid rgb(85, 241, 46);
   box-shadow: 0px 0px 15px 5px #f2f3f5ec;
+  object-fit: cover;
 }
 
 /* --------------------signup------------------------------------- */
 
 
 #signup {
-width: 800px;
-height: 800px;
+width: 50%;
+height: auto;
+max-width: 1200px;
 border: 1px solid rgb(85, 241, 46);
 box-shadow: 0px 0px 15px 5px #f2f3f5ec;
 display: flex;
 justify-content:center; 
 align-items: center;
+margin-top: 2vw;
+margin-left: 20vw;
 background-color: #a7a1a18a;
 font-size: 35px;
 color: #040d2b; 
 font-family: "Orbitron", sans-serif;
 font-weight: 800;
+padding: 2rem;
    
 }
 
@@ -297,3 +305,114 @@ font-weight: 800;
 
 
 /* ------------------media------------------------------------- */
+@media (max-width: 600px) {
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 16px;
+  }
+  
+  nav .logo {
+      font-size: 3rem;
+      margin-left: 1vw;
+  }
+
+  nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 0;
+  }
+  
+  nav ul li {
+      margin-left: 1vw;
+  }
+
+  nav ul li a {
+      font-size: 4vw;
+      margin-right: 1vw;
+  }
+
+  #hero {
+      margin-left: 0;
+      font-size: 4vw;
+      padding-left: 1rem;
+      height: auto;
+  }
+
+  #tiles {
+      grid-template-columns: 1fr;
+      gap: 20px;
+  }
+
+  .tile1, .tile2, .tile3, .tile4 {
+      font-size: 3vw;
+  }
+
+  #signup {
+      width: 90%;
+      margin-left: 5vw;
+      font-size: 20px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  nav .logo {
+      font-size: 4rem;
+  }
+
+  nav ul li a {
+      font-size: 3vw;
+  }
+
+  #hero {
+      margin-left: 0;
+      font-size: 2.5vw;
+  }
+
+  #tiles {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+  }
+
+  .tile1, .tile2, .tile3, .tile4 {
+      font-size: 2vw;
+  }
+
+  #signup {
+      width: 80%;
+      margin-left: 10vw;
+      font-size: 30px;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1025px) {
+  nav .logo {
+      font-size: 5rem;
+  }
+
+  nav ul li a {
+      font-size: 1.5vw;
+  }
+
+  #hero {
+      margin-left: 50%;
+      font-size: 1.5vw;
+  }
+
+  #tiles {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+  }
+
+  .tile1, .tile2, .tile3, .tile4 {
+      font-size: 1.2vw;
+  }
+
+  #signup {
+      width: 50%;
+      margin-left: 20vw;
+      font-size: 35px;
+  }
+}
