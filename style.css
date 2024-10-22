@@ -3,7 +3,7 @@
 * {
 padding: 0;
 margin: 0px;
-box-sizing: border-box;
+/* box-sizing: border-box; */
    
    
 }
@@ -138,26 +138,27 @@ border-radius: 5px;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: space-around;
-  gap:20px;
+  gap:30px;
   margin: auto;
   margin-top:10%;
   font-family: "Fira Mono", monospace;
-  color: rgb(67, 216, 38);
+  color: rgb(250, 253, 249);
   font-size: 20px;
   border:2px solid red;
+  
   
 }
 .tile1, .tile2, .tile3, .tile4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 350px;  /* Takes full viewport height */
+  height: 350px;  
   padding: 10px;
   background-color: #575a5e9f;
   border:3px solid green;
   border-radius: 2%;  
   font-size: 30px;
- }
+   }
  
 
   /* ---------------------footer----------------------------------------------------- */
@@ -219,11 +220,11 @@ font-size: 55px;
 
 #gallery {
   display: flex;
-  justify-content: center;   /* Centers #photos horizontally */
-  align-items: center;       /* Centers #photos vertically */
+  justify-content: center;   
+  align-items: center;       
   margin: 0 100px;
              
-  padding-bottom: 10px;     /* Keeps the footer and other elements spaced */
+  padding-bottom: 10px;     
 }
 
 
@@ -246,18 +247,3 @@ font-size: 55px;
 }
 
 /* ------------------media------------------------------------- */
-@media (max-width: 768px) {
-  #hero {
-    width: 100%;
-    margin-left: 0;
-    text-align: center;
-    padding: 20px;
-  }
-}
-@media (max-width: 768px) {
-  #tiles {
-    grid-template-columns: 1fr;
-    width: 90%; 
-    margin: auto;
-  }
-}
