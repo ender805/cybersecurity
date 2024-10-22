@@ -366,8 +366,9 @@ padding: 2rem;
   }
 
   #hero {
-      margin-left: 0;
-      font-size: 2.5vw;
+    margin-left: 50%;
+    font-size: 1.5vw;
+    height: 250px;
   }
 
   #tiles {
@@ -397,8 +398,9 @@ padding: 2rem;
   }
 
   #hero {
-      margin-left: 50%;
-      font-size: 1.5vw;
+    margin-left: 50%;
+    font-size: 1.5vw;
+    height: 350px;
   }
 
   #tiles {
