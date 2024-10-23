@@ -299,8 +299,8 @@ color: #4078c0;
   #tiles {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    ax-width: 1200px; 
     margin: 50px auto;
-    max-width: 1000px;
   }
 
   #tiles .box1, .box2, .box3, .box4 {
