@@ -270,7 +270,9 @@ color: #4078c0;
       grid-template-columns: 1fr; /* One column on smaller screens */
   }
 }
-
+#tiles {
+  width: 100vh;
+}
 
 
 
