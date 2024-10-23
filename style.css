@@ -278,7 +278,7 @@ color: #4078c0;
 
 @media (min-width: 1200px) {
   body {
-    background-size: cover;
+    padding: 0 10%;
   }
 
   nav .logo {
