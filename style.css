@@ -100,3 +100,31 @@ nav li {
 .x {
   color: rgb(252, 248, 248);
 }
+
+
+
+/* service page */
+.position-static  {
+  padding:20px;
+  
+ 
+}
+.card-body {
+  background-color:rgba(97, 100, 104, 0.151);
+  color:rgb(113, 218, 99);
+  padding-bottom:40px;
+  margin-bottom:40px;
+  box-shadow: 0px 0px 4px 1px #8e90928e;
+  border: 0.1px solid #8e90924d;
+
+}
+.card-body p {
+  font-family: "Goldman", serif;
+  font-size:20px;
+  letter-spacing: 2px;
+}
+h5 { 
+  font-size:30px;
+}
+
+  
