@@ -5,13 +5,14 @@
   box-sizing: border-box;
   font-family: "Wallpoet", serif;
   list-style:none;
-  display:center;
+  
   }
 
 header .navbar-brand {
   font-size:40px;
   color:rgb(113, 218, 99);
   margin:15px;
+  
   
 }
 
@@ -27,7 +28,8 @@ header .navbar-brand {
   color:rgb(113, 218, 99);
   background-color:#8e90924d;
   box-shadow: 0px 0px 4px 1px #8e90928e;
-  background-color:#8e90924d
+  background-color:#8e90924d;
+  
  
   
 }
@@ -36,7 +38,8 @@ header .navbar-brand {
 body {
   min-height: 100vh;
   background: url(images/backgroudn2.jpg) no-repeat center center/cover; 
-  backgroudn-color:grey;
+  
+  
   
   
 }
@@ -45,6 +48,7 @@ body {
 main {
   margin: 2px;
   flex: 1 0; 
+  
  } 
  /* main content  */
 
@@ -54,11 +58,13 @@ main {
   justify-content:space-evenly;
   padding-bottom:10px;
   
+  
 }
 .boxy2 {
   display: flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
+  
 }
 
 .card-subtitle {
