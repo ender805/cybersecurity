@@ -10,30 +10,31 @@
 
 header .navbar-brand {
   font-size:40px;
-  color:rgb(55, 245, 64);
+  color:rgb(0, 0, 0);
   margin:15px;
   
   
 }
 
 .nav-link {
-  color:rgb(55, 245, 64);
+  color:rgb(0, 0, 0);
   font-size:20px;
+  fon
 
  }
  
 .hero {
   font-size: 35px;
-  color:rgb(55, 245, 64);
-  background-color:#a3a5a71f;
+  color: rgb(0, 0, 0);
+  
   box-shadow: 0px 0px 4px 1px #8e90928e;
-  background-color:#525b6438;
+  background-color: #646c747c;
 }
 
 
 body {
   min-height: 100vh;
-  background: url(images/backgroudn2.jpg) no-repeat center center/cover; 
+  background: url(images/dan-nelson-ah-HeguOe9k-unsplash.jpg) no-repeat center center/cover; 
 }
 
 
@@ -51,7 +52,7 @@ main .card-body {
 }
 
 .card-body a {
-  background-color: rgb(16, 9, 119);
+  background-color: rgb(0, 0, 0);
   border: 1px solid white;
 }
 
@@ -91,8 +92,8 @@ nav li {
  
 }
 .card-body {
-  background-color:#525b6438;;
-  color:rgb(55, 245, 64);
+  background-color:#646c747c;
+  color:rgb(0, 0, 0);
   padding-bottom:40px;
   margin-bottom:40px;
   box-shadow: 0px 0px 4px 1px #8e90928e;
