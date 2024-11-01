@@ -62,7 +62,11 @@ main .card-body {
   background-color:rgb(0, 0, 0);
   border: 1px solid white;
 }
+.card-body2,  h5, p {
+  color:rgb(0, 0, 0);
+  text-shadow: 1px 1px 5px rgb(129, 162, 235);
 
+}
 
 
 
