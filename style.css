@@ -68,6 +68,11 @@ main .card-body {
 
 /* footer */
 
+.container-fluid{
+  justify-content: space-around;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
 nav li {
   list-style: none;
   font-size: 35px; 
