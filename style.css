@@ -27,7 +27,7 @@ header .navbar-brand {
  
 .hero {
   font-size: 35px;
-  color:#000000;
+  color:rgb(0, 0, 0);
   text-shadow: 1px 1px 5px rgb(129, 162, 235);
   box-shadow: 0px 0px 4px 1px #f1f3f58e;
   background-color: #d3d8dd7c;
@@ -52,13 +52,14 @@ main .card-body {
   border: 1px solid white;
   padding-top:20px;
   text-shadow: 1px 1px 5px rgb(129, 162, 235);
+  color:rgb(0, 0, 0);
   
  
   
 }
 
 .card-body a {
-  background-color: rgb(0, 0, 0);
+  background-color:rgb(0, 0, 0);
   border: 1px solid white;
 }
 
@@ -81,22 +82,22 @@ nav li {
 
 .gplus {
   color: #db4a39;
-  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
 }
 
 .github {
   color: #4078c0;
-  text-shadow: 1px 1px 5px rgb(255, 254, 254);
+  text-shadow: 1px 1px 10px rgb(255, 254, 254);
 }
 
 .linkedin {
   color: #0077B5;
-  text-shadow: 1px 1px 5px rgb(247, 242, 242);
+  text-shadow: 1px 1px 10px rgb(247, 242, 242);
 }
 
 .x {
   color: rgb(252, 248, 248);
-  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
 }
 
 
@@ -109,7 +110,6 @@ nav li {
 }
 .card-body {
   background-color: #d3d8dd7c;
-  color:rgb(0, 0, 0);
   padding-bottom:40px;
   margin-bottom:40px;
   box-shadow: 0px 0px 4px 1px #8e90928e;
