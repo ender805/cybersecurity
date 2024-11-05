@@ -89,11 +89,14 @@ main .card-body {
 
 /* footer */
 
-.container-fluid{
-  justify-content: space-around;
+.navbar-nav {
+  justify-content: space-evenly;
+  flex-direction: row;
+ 
   margin-left: 5rem;
   margin-right: 5rem;
 }
+
 nav li {
   list-style: none;
   font-size: 35px; 
