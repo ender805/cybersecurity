@@ -25,8 +25,15 @@ header .navbar-brand {
   
  }
  
+
+ #top {
+  display: flex;
+justify-content: center;
+align-items: center;
+ }
+
 .hero {
-  font-size: 35px;
+  font-size: 20px;
   color:rgb(0, 0, 0);
   text-shadow: 1px 1px 5px rgb(129, 162, 235);
   box-shadow: 0px 0px 4px 1px #f1f3f58e;
@@ -137,18 +144,30 @@ h5 {
   padding-top: 40px;
 }
 
+/* sign up page */
+
+#form {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 
 /* media query  */
 
 @media (min-width: 576px) and (max-width: 768px) {
   header .navbar-brand {
-    font-size: 35px;
+    font-size: 25px;
   }
   .nav-link {
-    font-size: 19px;
+    font-size: 15px;
   }
   .hero {
-    font-size: 22px;
+    font-size: 50px;
   }
   h5 {
     font-size: 26px;
@@ -161,7 +180,7 @@ h5 {
 /* Large devices (lg, 992px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
   header .navbar-brand {
-    font-size: 38px;
+    font-size: 10px;
   }
   .hero {
     font-size: 24px;
@@ -177,8 +196,9 @@ h5 {
     font-size: 40px;
   }
   .hero {
-    font-size: 25px;
+    font-size: 26px;
   }
+
 }
 
 /* Extra extra large devices (xxl, 1400px and up) */
@@ -189,10 +209,11 @@ h5 {
   h5 {
     font-size: 30px;
   }
+ 
 }
 
-/* ---------------------------use this----------------------------------------- */
-
+/* ---------------------------temple----------------------------------------- */
+/* 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
 
@@ -203,4 +224,4 @@ h5 {
 @media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { ... } */
