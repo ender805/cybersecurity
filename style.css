@@ -149,16 +149,29 @@ h5 {
 
 /* sign up page */
 
-#form {
+#signup-form {
   display:flex;
   justify-content: center;
   align-items: center;
+  height: 50rem;
   width: 80%;
   margin: auto;
-  padding-bottom: 50px;
-  padding-top: 50px;
+ 
 }
+.form-content {
 
+  
+  height: 50%;
+  display:flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 0px 0px 4px 1px #8e90928e;
+  border: 0.1px solid #8e90924d;
+  background-color: #d3d8dd7c;
+  border:1px solid white;
+}
 
 /* media query  */
 
